@@ -1,0 +1,30 @@
+name: travelbuddy2
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  image_picker: ^0.8.4+3
+  flutter_svg: ^2.0.9
+  google_maps_flutter: ^2.1.1
+  intl: ^0.18.0
+  tflite: ^1.1.2
+  url_launcher: ^6.0.6
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Barlow
+      fonts: 
+        - asset: assets/fonts/BarlowExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/BarlowBold.ttf
+          weight: 700
